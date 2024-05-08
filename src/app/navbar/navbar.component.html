@@ -1,0 +1,83 @@
+<nav class="fixed top-0 z-50 left-0 right-0 lg:px-14">
+    <div class=" mx-auto px-4 py-4 lg:py-0 flex justify-between items-center mt-1">
+        <!-- Left section (logo and title) -->
+        <div class="flex items-center space-x-4">
+            <img class="logo" src="assets/logo.png" alt="Logo" routerLink="/">
+            <!-- <a class="text-gray-700 font-medium text-lg">TARINIKA</a> -->
+        </div>
+
+        <!-- Right section (menu items and profile menu) -->
+        <div class="hidden md:flex items-center mt-1/2"> 
+            <!-- Navigation links -->
+            <button class="open-button" mat-button (click)="openNavbarContent('men')">
+                <p class="pt-3 text-gray-900" >Men</p>
+            </button>
+            <button class="open-button" mat-button (click)="openNavbarContent('women')">
+                <p class="pt-3 text-gray-900">Women</p>
+            </button>
+            
+            <!-- Cart button -->
+            <button (click)="navigateToCart('cart')">
+               <p class="pt-4"><mat-icon>shopping_cart</mat-icon></p>
+            </button>
+            
+            <button class="scale-animation mb-1" mat-raised-button color="dark">Login</button>
+
+            <div class="flex items-center ">
+                <div class=" text-gray-900 ml-3 mb-0.5">Nita</div>
+                <mat-button [matMenuTriggerFor]="profilemenu">
+                    <img class="w-10 mb-1/2 " src="https://cdn.pixabay.com/photo/2021/07/02/04/48/user-6380868_640.png" alt="User Profile">
+                </mat-button>
+
+               <mat-menu #profilemenu="matMenu" xPosition="after">
+                    <button>Orders</button>
+                    <button>Profile</button> 
+                    <button>Wishlist</button>
+                    <button>Logout</button>
+                </mat-menu> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal container for navbar content -->
+    <div class="absolute left-5 right-5 modal-container" *ngIf="isNavbarContentOpen">
+       <app-nav-content [selectedSection]="currentSection"></app-nav-content> 
+    </div>
+
+</nav>
+
+
+
+
+
+ <!-- <div class="fixed top-0 z-50 left-0 right-0 lg:px-14">
+                <div class=" h-11 flex items-center justify-between ">
+                    <div class="flex items-center">
+                        <div class="mr-5">
+                            <img class="w-7" src="https://www.tarinika.in/cdn/shop/files/tarinika-new-logo_2000x.png?v=1662699798" alt="Logo">        
+                        </div> 
+                        <div class="">
+                            <div class="flex space-x-4">
+                                <a routerLink="/" class="text-gray-900">TARINIKA</a>
+            
+                                    <div>
+                                        <button class="open-button" mat-button (click)="openNavbarContent('men')">
+                                            <p class="pt-3 text-black-900">Men</p>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="open-button" mat-button (click)="openNavbarContent('men')">
+                                            <p class="pt-3 text-black-900">Women</p>
+                                        </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="flex items-center">
+                        <button (click)="navigateTo('cart')" mat-icon-button>
+                        </button>
+                    </div>
+                </div>     
+ </div> -->

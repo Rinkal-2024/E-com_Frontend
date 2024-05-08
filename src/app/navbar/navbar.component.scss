@@ -1,0 +1,90 @@
+nav{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 50; 
+    padding: 0 14px;
+    background-color: rgb(248, 247, 244);
+
+}
+nav ,button{
+    // position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    padding: 0 6px;
+    background-color: rgb(248, 247, 244);
+
+}
+.modal-container {
+    left: 5px;
+    right: 5px;
+}
+.logo {
+    width: 99px; 
+    height: auto;   
+}
+/* Customize mat-menu container */
+.mat-menu-panel {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  
+  /* Customize mat-menu items */
+  .mat-menu-content button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px; /* Padding */
+    border: none;
+    background-color: transparent; /* Background color */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition */
+  }
+  
+  /* Hover effect on mat-menu items */
+  .mat-menu-content button:hover {
+    background-color: #f0f0f0; /* Hover background color */
+  }
+  
+
+
+
+
+
+
+
+
+
+// .logo{
+//     // padding: 35px;
+//     height: 30px;
+//     width: 99px;
+//     // background-blend-mode: ;
+// }
+// @keyframes blink {
+//     0%, 25%,75%, 100% {
+//       opacity: 1;
+//     }
+//      50% {
+//       opacity: 0;
+//     }
+//   }
+//   .blink-animation {
+//     animation: blink 2s infinite;
+//   }
+//   @keyframes pulse {
+//     0%,50%, 100% {
+//         transform: scale(1);
+//     }
+//     25%,75% {
+//         transform: scale(1.2);
+//     }
+// }
+//   .scale-animation {
+//     animation: pulse 3s infinite;
+//   }
+  
