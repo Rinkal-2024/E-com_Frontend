@@ -2,7 +2,7 @@ export const womenJewellery=[
     {
         "imageUrl": "https://rukminim1.flixcart.com/imageUrl/612/612/kw5ag7k0/kurta/f/j/g/xxl-sg1011-sanganeri-feb-original-imag8w9xbbakjkju.jpeg?q=70",
         "brand": "Riya Creation",
-        "title": "Houndstooth Rayon Blend Stitched Anarkali Gown",
+        "title": "",
         "color": "Blue",
         "price": "₹466",
         "discountedPrice": "₹999",
@@ -12,9 +12,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwf4291e6d/images/hi-res/500925FHAAB09_2.jpg",
         "brand": "SAPONHARSH",
-        "title": "Printed Viscose Rayon Stitched Anarkali Gown",
+        "title": "",
         "color": "Red",
-        "price": "₹449",
+        "price": "₹1449",
         "discountedPrice": "₹1,099",
         "disscount": "59% off",
         "size": ""
@@ -22,9 +22,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwb3ac3612/images/hi-res/500496FDAAB09_2.jpg",
         "brand": "NE STYLE",
-        "title": "Printed Crepe Stitched Anarkali Gown",
+        "title": "",
         "color": "Beige",
-        "price": "₹298",
+        "price": "₹1298",
         "discountedPrice": "₹1,599",
         "disscount": "81% off",
         "size": ""
@@ -32,9 +32,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3747a32f/images/hi-res/510429FFAAA00_2.jpg",
         "brand": "NE STYLE",
-        "title": "Printed Crepe Stitched Anarkali Gown",
+        "title": "",
         "color": "Beige",
-        "price": "₹298",
+        "price": "₹1298",
         "discountedPrice": "₹1,599",
         "disscount": "81% off",
         "size": ""
@@ -42,9 +42,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7b65684c/images/hi-res/51M3PTFIFAA00_2.jpg",
         "brand": "NE STYLE",
-        "title": "Printed Crepe Stitched Anarkali Gown",
+        "title": "",
         "color": "Light Green",
-        "price": "₹284",
+        "price": "₹1284",
         "discountedPrice": "₹1,599",
         "disscount": "82% off",
         "size": ""
@@ -52,9 +52,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw08211058/images/hi-res/51D2A4VCM1A00_2.jpg",
         "brand": "NE STYLE",
-        "title": "Printed Crepe Stitched Anarkali Gown",
+        "title": "",
         "color": "Dark Blue",
-        "price": "₹298",
+        "price": "₹1298",
         "discountedPrice": "₹1,599",
         "disscount": "81% off",
         "size": ""
@@ -62,9 +62,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c8d7310/images/hi-res/50D3C2FFXAA09_2.jpg",
         "brand": "Zinariya Fab",
-        "title": "Embroidered Net Semi Stitched Anarkali Gown",
+        "title": "",
         "color": "Pink",
-        "price": "₹499",
+        "price": "₹4499",
         "discountedPrice": "₹2,099",
         "disscount": "76% off",
         "size": ""
@@ -72,9 +72,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw398f3157/images/hi-res/50D4I1FNIAA02_2.jpg",
         "brand": "GLFashion",
-        "title": "Solid Rayon Blend Stitched Anarkali Gown",
+        "title": "",
         "color": "Grey",
-        "selling_price": "₹689",
+        "selling_price": "1₹689",
         "price": "₹1,199",
         "disscount": "42% off",
         "size": ""
@@ -82,9 +82,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa06298f3/images/hi-res/50D4I1FXBAA09_2.jpg",
         "brand": "Zinariya Fab",
-        "title": "Embroidered Net Semi Stitched Anarkali Gown",
+        "title": "",
         "color": "Pink",
-        "selling_price": "₹499",
+        "selling_price": "₹4499",
         "price": "₹3,099",
         "disscount": "83% off",
         "size": ""
@@ -92,9 +92,9 @@ export const womenJewellery=[
     {
         "imageUrl": "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8ad021e7/images/hi-res/51D4MPFCBAA00_2.jpg",
         "brand": "Zinariya Fab",
-        "title": "Embroidered Net Semi Stitched Anarkali Gown",
+        "title": "",
         "color": "Pink",
-        "selling_price": "₹499",
+        "selling_price": "₹3499",
         "price": "₹2,099",
         "disscount": "76% off",
         "size": ""
@@ -102,10 +102,10 @@ export const womenJewellery=[
     {
         "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/gown/3/g/z/na-m-full-sleeve-semi-stitched-rayon-gown-sky-007-glfashion-na-original-imagp5zczfbuskty.jpeg?q=70",
         "brand": "GLFashion",
-        "title": "Solid Rayon Blend Semi Stitched Anarkali Gown",
+        "title": "",
         "color": "Light Blue",
-        "price": "₹555",
-        "discountedPrice": "₹999",
+        "price": "₹3555",
+        "discountedPrice": "₹2999",
         "disscount": "44% off",
         "size": ""
     },
